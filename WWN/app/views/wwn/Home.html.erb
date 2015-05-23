@@ -1,0 +1,74 @@
+
+
+
+<!DOCTYPE html>
+<html lang='eng'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Home-WW News</title>
+  <style>
+      body {background-color:darkgrey}
+      * {
+          padding: 0;
+          margin: 0;
+      }
+      li a {
+          text-decoration: none;
+          color: white;
+          line-height: 50px;
+          display: block;
+      }
+      nav ul {
+          height: 100px;
+          margin: 0 auto;
+      }
+      nav ul li {
+          list-style-type: none;
+          width: 150px;
+          float: left;
+          text-align: center;
+      }
+      nav {
+          background-color: black;
+          height: 100px;
+      }
+      li a:hover {
+          background-color: yellow;
+          color: green;
+      }
+      h1 {
+          background-color: BROWN;
+          color:white;
+      }
+
+  </style>
+
+</head>
+<body>
+<body background="http://www.zastavki.com/pictures/1280x800/2010/World_Travel___Tourism_Old_Map_023362_.jpg">
+
+<h1> <b>WWNews</b></h1>
+<div id="regbar">
+  <nav>
+    <ul>
+      <li><%= link_to "Latest", wwn_p4_path %></li>
+      <li><%= link_to "Sports", wwn_p2_path %></li>
+      <li><%= link_to "Tech", wwn_p5_path %></li>
+      <li><%= link_to "Politics", wwn_p6_path %></li>
+      <li><%= link_to "Health", wwn_p1_path %></li>
+      <li><%= link_to "Games", wwn_p10_path %></li>
+      <li><%= link_to "Entertainment", wwn_p3_path %></li>
+      <li><%= link_to "Travel", wwn_p9_path %></li>
+      <li><%= link_to "Currencies", wwn_p8_path %></li>
+      <li><%= link_to "Science", wwn_p7_path %></li>
+      <li><%= link_to "Food", wwn_p12_path %></li>
+      <li><%= link_to "Magazine", wwn_p11_path %></li>
+      <li><%= link_to "Restaurants", wwn_p13_path %></li>
+
+      <li><%= link_to "Sign in", wwn_signin_path %></li>
+      <li><%= link_to "Sign up", wwn_signup_path %></li>
+
+    </ul>
+  </nav>
+</body>
+</html>

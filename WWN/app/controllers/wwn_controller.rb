@@ -1,5 +1,5 @@
 class WwnController < ApplicationController
-  def mybar
+  def Home
   end
 
   def p1
@@ -41,12 +41,9 @@ class WwnController < ApplicationController
   def p13
   end
 
-  def R
+  def signin
   end
 
-  def SIGNin
-  end
-
-  def SIGNup
+  def signup
   end
 end

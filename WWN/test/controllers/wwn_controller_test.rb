@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class WwnControllerTest < ActionController::TestCase
-  test "should get mybar" do
-    get :mybar
+  test "should get Home" do
+    get :Home
     assert_response :success
   end
 
@@ -71,18 +71,13 @@ class WwnControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get R" do
-    get :R
+  test "should get signin" do
+    get :signin
     assert_response :success
   end
 
-  test "should get SIGNin" do
-    get :SIGNin
-    assert_response :success
-  end
-
-  test "should get SIGNup" do
-    get :SIGNup
+  test "should get signup" do
+    get :signup
     assert_response :success
   end
 
