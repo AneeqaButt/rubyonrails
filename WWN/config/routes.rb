@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'wwn/Home'
+  get 'wwn/mybar'
 
   get 'wwn/p1'
 
@@ -27,9 +27,11 @@ Rails.application.routes.draw do
 
   get 'wwn/p13'
 
-  get 'wwn/signin'
+  get 'wwn/R'
 
-  get 'wwn/signup'
+  get 'wwn/SIGNin'
+
+  get 'wwn/SIGNup'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
